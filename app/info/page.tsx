@@ -9,7 +9,7 @@ export default function Info() {
         <Sidebar />
 
         {/* Conteúdo Principal (Info) */}
-        <section className="flex-1 w-full min-w-0">
+        <section className="flex-1 w-full min-w-0 opacity-0 animate-fade-in-up [animation-delay:150ms]">
           
           {/* Seção de Biografia */}
           <h2 className="text-[40px] font-bold text-neutral-950 mb-[12px] tracking-tight">
@@ -43,12 +43,12 @@ export default function Info() {
           
           <div className="bg-neutral-100 rounded-3xl p-[24px] flex flex-col gap-[16px]">
             <div className="flex items-center justify-between flex-wrap gap-[16px]">
-              <Image src="/icons/affiliacore.svg" alt="AffiliaCore" width={140} height={48} className="h-[48px] w-auto mix-blend-multiply opacity-80" />
-              <Image src="/icons/nocratomarketing.svg" alt="Nocrato Marketing" width={140} height={48} className="h-[48px] w-auto mix-blend-multiply opacity-80" />
-              <Image src="/icons/agenciaaxxon.svg" alt="Agência Axxon" width={140} height={48} className="h-[48px] w-auto mix-blend-multiply opacity-80" />
-              <Image src="/icons/produtorapromise.svg" alt="Produtora Promise" width={140} height={48} className="h-[48px] w-auto mix-blend-multiply opacity-80" />
-              <Image src="/icons/drmarcioalmeida.svg" alt="Dr Márcio Almeida" width={140} height={48} className="h-[48px] w-auto mix-blend-multiply opacity-80" />
-              <Image src="/icons/drafabianafreitas.svg" alt="Dra Fabiana Freitas" width={140} height={48} className="h-[48px] w-auto mix-blend-multiply opacity-80" />
+              <Image src="/icons/affiliacore.svg" alt="AffiliaCore" width={140} height={48} className="h-[48px] w-auto mix-blend-multiply opacity-60 pointer-events-none" />
+              <Image src="/icons/nocratomarketing.svg" alt="Nocrato Marketing" width={140} height={48} className="h-[48px] w-auto mix-blend-multiply opacity-60 pointer-events-none" />
+              <Image src="/icons/agenciaaxxon.svg" alt="Agência Axxon" width={140} height={48} className="h-[48px] w-auto mix-blend-multiply opacity-60 pointer-events-none" />
+              <Image src="/icons/produtorapromise.svg" alt="Produtora Promise" width={140} height={48} className="h-[48px] w-auto mix-blend-multiply opacity-60 pointer-events-none" />
+              <Image src="/icons/drmarcioalmeida.svg" alt="Dr Márcio Almeida" width={140} height={48} className="h-[48px] w-auto mix-blend-multiply opacity-60 pointer-events-none" />
+              <Image src="/icons/drafabianafreitas.svg" alt="Dra Fabiana Freitas" width={140} height={48} className="h-[48px] w-auto mix-blend-multiply opacity-60 pointer-events-none" />
             </div>
             
             <p className="text-[12px] text-neutral-400">
